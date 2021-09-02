@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+    display: grid;
+  height: 100%;
+  width: 100%;
+  color: white;
+  place-items: center;
+    background-image: url(image/sun.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+::selection{
+    background: rgb(255, 189, 189);
+    color: black;
+  }
+.regis-forum{
+    margin: 20px;
+    background: #2a2a2a66;
+    border-radius: 9px;
+    width: 69%;
+    position: relative;
+    font-size: 12px;
+}
+.wrapper {
+    text-align: center;
+    font-size: 13px;
+    background: #0000006e;
+    border-radius: 10px 9px 0px 0px;
+}
+.register {
+    padding: 20px;
+    
+}
+h2 {
+    float: left;
+    font-size: 16px;
+}
+input.firstname {float: left;font-size: 16px;border-radius: 3px;border: none;width: 270px;line-height: 29px;}
+div {
+    padding-bottom: 12px;
+}
+ /* .wrappe.success input{
+    
+    border: 2px solid green;
+    
+} 
+
+ .wrappe.success i.fa-check-circle{
+    color: green; 
+    visibility: visible;
+} 
+ .wrappe.error input{
+    border: 2px solid red;
+}
+
+.wrappe.error i.fa-exclamation-circle{
+    color: red; 
+    visibility: visible;
+} */
+
+.company_field h2 {
+    margin-right: 46px;
+}
+
+input.company_field {
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 31px;
+    width: 580px;
+}
+
+
+.Phonenumber h2 {
+    margin-right: 74px;
+}
+
+input.phone_field {
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 31px;
+    width: 583px;
+}
+.icon-i i {
+    position: absolute;
+    top: 82px;
+    color: black;
+    right: 530px;
+}
+.icon-i2 i {
+    position: absolute;
+    overflow: hidden;
+    top: 82px;
+    color: black;
+    right: 229px;
+}
+.icon-i3 i {
+    position: absolute;
+    color: black;
+    top: 136px;
+    right: 220px;
+}
+
+.icon-i4 i {
+    position: absolute;
+    color: black;
+    top: 204px;
+    right: 220px;
+}
+
+.icon-i5 i {
+    position: absolute;
+    color: black;
+    top: 270px;
+    right: 220px;
+}
+
+.icon-i6 i {
+    position: absolute;
+    color: black;
+    top: 337px;
+    right: 220px;
+}
+.email h2 {
+    margin-right: 78px;
+}
+
+input.email_field {
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 31px;
+    width: 584px;
+}
+
+.password h2 {
+    margin-right: 40px;
+}
+
+input.password_field {
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 31px;
+    width: 589px;
+}
+.icon-i {
+    float: left;
+    margin: 6px 27px 0px 0px;
+}
+
+input.lastname {
+    width: 250px;
+    float: left;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+    width: 277px;
+    line-height: 29px;
+}
+
+
+.name-fild h2 {
+    margin-right: 80px;
+}
+
+
+.notmember {
+    font-size: 14px;
+}
+.notmember a {
+    color: #daff00;
+}
+.submit {
+    padding: 3px 19px 37px;
+}
+.submit #submit{
+    padding: 10px; 
+    border: none; 
+    font-family: revert;
+    border-radius: 10px; 
+    background: rgb(6, 134, 194);
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.submit #submit:hover{
+    background: rgb(4, 108, 156);
+    box-shadow: 2px 5px 13px 2px #053db8eb;
+}
+
+.login {
+    width: 59%;
+    visibility: hidden;
+    font-size: 12px;
+    border-radius: 9px 9px 0px 0px;
+    background: #0000003b;
+}
+
+
+.login h1 {
+    text-align: center;
+    background: #00000099;
+    border-radius: 9px 9px 0px 0px;
+}
+i{
+    visibility: hidden;
+}
+.login-email h2 {
+    float: left;
+    padding-right: 87px;
+}
+.login-email {
+    padding: 15px;
+}
+.login-password {
+    padding: 9px 15px;
+}
+.notmember {
+    padding: 11px 16px;
+}
+.login-password h2 {
+    padding-right: 49px;
+}
