@@ -13,7 +13,7 @@ html,body{
   width: 100%;
   color: white;
   place-items: center;
-    background-image: url(image/sun.jpeg);
+    background-image: url(sun.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
